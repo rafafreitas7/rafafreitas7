@@ -1,0 +1,85 @@
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+main h1 {
+    background-image: linear-gradient(to right, rgba(163, 157, 157, 0.644), transparent);
+}
+
+main h2 {
+    background-image: linear-gradient(to right, rgba(163, 157, 157, 0.644), transparent);
+}
+
+main p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: brown;
+}
+
+.distribuicao {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.descricao-imagem {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: rgb(35, 111, 173);
+    color: white;
+    width: 250px;
+    height: 50px;
+    font-size: 1.2em;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    border-radius: 8px;
+    transition: 0.3s;
+    border-style: none;
+}
+
+button:hover {
+    background-color: rgba(49, 49, 201, 0.473);
+    cursor: pointer;
+    color: black;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(138, 134, 134);
+}
+
+.familia {
+    display: block;
+    margin: auto;
+}
+
+.descricao-familia {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 30px; 
+}
+
+
